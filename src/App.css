@@ -1,6 +1,19 @@
-.App {
-  text-align: center;
-  /* background-image:url("paper.gif"); ; */
+.main-block{
+  height: 1500px;
+}
+.landing-screen{
+/* The image used */
+background-image:url("./assets/images/mypic.jpg"); ;
+ width: 100vh;
+  height: 100vh;
+  object-fit: contain; 
+/* Full height */
+/* height: 100%; */
+
+/* Center and scale the image nicely */
+ background-position: center;
+background-repeat: no-repeat;
+background-size: cover; 
 }
 
 .App-logo {
